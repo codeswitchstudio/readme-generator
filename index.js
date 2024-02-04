@@ -1,14 +1,14 @@
 const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
+
 const generateMarkdown = require("./utils/generateMarkdown");
 const util = require('util');
+const license = require("./utils/license").license;
+
 const writeFileAsync = util.promisify(fs.writeFile);
 
-
 // array of questions for user
-
-
 const promptUser = () => {
     return inquirer.prompt([
     {
@@ -41,7 +41,7 @@ const promptUser = () => {
         type: 'list',
         message: 'Which license are you using for this project?',
         name: 'license',
-        choices: ['MIT', 'Creative Commons', 'Mozilla', 'Apache', 'GNU' ],
+        choices: ['GNU AGPLv3', 'Mozilla', 'Apache', 'MIT', 'Creative Commons'],
     },
     {
         type: 'input',
@@ -71,40 +71,35 @@ const promptUser = () => {
 ])};
 
 
-
 // function to write README file
 // function writeToFile(fileName, data) {
-}
 
-// const writeFileAsync = util.promisify(fs.writeFile);
-
-// function to initialize program
-// function init() {
 // }
 
+// using async/await and try/catch
 
+// function to initialize program
+// function init() {}
+
+  // function call to initialize program
+//   init();
 
 // const filePath = './output/READme.md';
 
-// const init = async () => {
-//     console.log('hi');
-//     try {
-//       const answers = await promptUser();
-//       const markdown = generateMarkdown(answers);
-//       await writeFileAsync('READme.md', md);
-//       console.log('You have successfully generated a Markdown file!');
-//     } catch (err) {
-//       console.log('Error generating Markdown file: ', err);
-//     }
-//   };
-
-//   promptUser()
-//   .then((answers) => writeFileAsync('./output/READme.md', generateMarkdown(data)))
-//   .then(() => console.log('Successfully wrote a Markdown file!'))
-//   .catch((err) => console.error('Error writing Markdown file:', err));
+const init = async () => {
+    console.log('hi');
+    try {
+        const answers = await promptUser();
+        const markdown = generateMarkdown(answers);  // Fix here, change 'data' to 'answers'
+        await writeFileAsync('./output/created-READme.md' , markdown);  // Fix here, change 'readMeData' to 'markdown'
+        console.log('You have successfully generated a Markdown file!');
+    } catch (err) {
+        console.log('Error generating Markdown file: ', err);
+    }
+};
 
 
-// function call to initialize program
-init();
-
+  
+  // function call to initialize program
+  init();
 
