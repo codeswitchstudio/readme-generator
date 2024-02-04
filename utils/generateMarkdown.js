@@ -5,24 +5,26 @@ function generateMarkdown(data) {
   
 ## Contents
 
-1. [Description](#about) 
+1. [Description](#description) 
 - [User Story](#user%20story)
 - [Screenshots](#screenshots)
 2. [Installation](#installation)
 2. [Usage Information] (#usage)
 3. [License](#license)
 4. [Contribution Guidelines](#contributing)
-5. [Tests](#tests)
-6. [Questions]()
+5. [Authors and Acknowledgments](#acknowledgments)
+5. [Tests](#test)
+6. [Questions](#questions)
 
 ---
 ## Description
 
-  ${data.description}
+${data.description}
 
 ---
 
 ## User Story
+
 ${data.userStory}
 
 ---
@@ -45,8 +47,9 @@ ${data.userStory}
 
 ## License
   This application is covered by the following license:
+
   ${data.license}
-  ${data.licenseBadge}
+  
 
 ---
 
@@ -63,11 +66,13 @@ To contribute to this application, please follow these steps:
 ---
 
 ## Tests:
+
   ${data.test}
 
 ---
 
 ## Authors and Acknowledgments
+
   ${data.acknowledgements}
   ${data.acknowledgementsLink}
 
