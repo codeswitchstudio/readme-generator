@@ -1,11 +1,9 @@
 const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
-
 const generateMarkdown = require("./utils/generateMarkdown");
 const util = require('util');
 const license = require("./utils/license").license;
-
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // array of questions for user
@@ -23,19 +21,28 @@ const promptUser = () => {
     },
     {
         type: 'input',
-        name: 'Table of Contents',
-        message: 'What are the sections of your project?',
+        name: 'userStory',
+        message: 'Please input your user story',
     },
     {
         type: 'input',
-        name: 'Installation',
-        message: 'How do you install your project?',
+        name: 'visuals',
+        message: 'Please input a link to your visuals',
+    },
+    {
+        type: 'input',
+        name: 'visualsLabel',
+        message: 'Please input a label to name those visuals',
+    },    
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'How do you install your project and mention if there is any tech required?',
     },
     {
         type: 'input',
         message: 'What is your project used for?',
-        name: 'Usage',
-        
+        name: 'usage',
     },
     {
         type: 'list',
@@ -44,19 +51,19 @@ const promptUser = () => {
         choices: ['GNU AGPLv3', 'Mozilla', 'Apache', 'MIT', 'Creative Commons'],
     },
     {
-        type: 'input',
-        message: 'Any guidelines for contributing to this project?',
-        name: 'contribution', 
-    },
-    {
         type: "input",
         message: "What have you done to test this project?",
         name: "test",
     },
     {
         type: "input",
-        message: "What have you done to test this project?",
-        name: "test",
+        message: "Please type your acknowledgements here",
+        name: "acknowledgements",
+    },
+    {
+        type: "input",
+        message: "Please type your acknowledgements here",
+        name: "acknowledgementsLink",
     },
     {
         type: "input",
@@ -76,7 +83,6 @@ const promptUser = () => {
 
 // }
 
-// using async/await and try/catch
 
 // function to initialize program
 // function init() {}

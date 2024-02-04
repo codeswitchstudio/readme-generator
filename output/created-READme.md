@@ -1,17 +1,13 @@
-
-// function to generate markdown for README
-function generateMarkdown(data) {
-
-  return ` 
+ 
   
-#  ${data.title}
+#  README generator
 
   
 ## Contents
 
 1. [Description](#about) 
-- [User Story](#user%20story)
-- [Screenshots](#screenshots)
+  --[User Story](#user%20story)
+  --[Screenshots](#screenshots)
 2. [Installation](#installation)
 2. [Usage Information] (#usage)
 3. [License](#license)
@@ -23,35 +19,35 @@ function generateMarkdown(data) {
 ---
 ## Description
 
-  ${data.description}
+  Using the terminal to create a readme file for my repo
 
 ---
 
 ## User Story
-${data.userStory}
+As a user I want to be able to use the command line to create a readme file
 
 ---
 
 ## Screenshots:
 
-![${data.visualsLabel}](${data.visuals})
+![screen recording](google docs link to be supplied later)
 
 ---
 
 ## Installation:
-  ${data.installation}
+  Use the terminal and node.js
 
 ---
 
 ## Usage:
-  ${data.installation}
+  Use the terminal and node.js
 
 ---
 
 ## License
   This application is covered by the following license:
-  ${data.license}
-  ${data.licenseBadge}
+  MIT
+  undefined
 
 ---
 
@@ -68,23 +64,19 @@ To contribute to this application, please follow these steps:
 ---
 
 ## Tests:
-  ${data.test}
+  Self-testing
 
 ---
 
 ## Authors and Acknowledgments
-  ${data.acknowledgements}
-  ${data.acknowledgementsLink}
+  Node modiles fs and inquirer
 
 ---
 
 ## Questions
   For any further questions please contact:
-* GitHub Username: <${data.userName}>
-* GitHub Email: <${data.userEmail}>
+* GitHub Username: undefined
+* GitHub Email: undefined
+// [Github Repository can be accessed here.](undefined)
   
   
-`;
-}
-
-module.exports = generateMarkdown;
