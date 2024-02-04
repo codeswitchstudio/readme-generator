@@ -1,53 +1,53 @@
- 
-  
-#  README generator
-
+   
+#  Aldos App
   
 ## Contents
 
-1. [Description](#about) 
-  --[User Story](#user%20story)
-  --[Screenshots](#screenshots)
+1. [Description](#description) 
+- [User Story](#user%20story)
+- [Screenshots](#screenshots)
 2. [Installation](#installation)
 2. [Usage Information] (#usage)
 3. [License](#license)
 4. [Contribution Guidelines](#contributing)
-5. [Tests](#tests)
-6. [Questions]()
-
+5. [Authors and Acknowledgments](#acknowledgments)
+5. [Tests](#test)
+6. [Questions](#questions)
 
 ---
 ## Description
 
-  Using the terminal to create a readme file for my repo
+Aldo
 
 ---
 
 ## User Story
-As a user I want to be able to use the command line to create a readme file
+
+Aldo makes readme
 
 ---
 
 ## Screenshots:
 
-![screen recording](google docs link to be supplied later)
+![link name](to folow later)
 
 ---
 
 ## Installation:
-  Use the terminal and node.js
+  something
 
 ---
 
 ## Usage:
-  Use the terminal and node.js
+  something
 
 ---
 
 ## License
   This application is covered by the following license:
+
   MIT
-  undefined
+  
 
 ---
 
@@ -64,19 +64,21 @@ To contribute to this application, please follow these steps:
 ---
 
 ## Tests:
-  Self-testing
+
+  nothing this
 
 ---
 
 ## Authors and Acknowledgments
-  Node modiles fs and inquirer
+
+  thank you jesus
+  link to thnk jesus
 
 ---
 
 ## Questions
   For any further questions please contact:
-* GitHub Username: undefined
-* GitHub Email: undefined
-// [Github Repository can be accessed here.](undefined)
+* GitHub Username: <undefined>
+* GitHub Email: <undefined>
   
   

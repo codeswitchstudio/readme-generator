@@ -2,22 +2,23 @@
 function generateMarkdown(data) {
   return `   
 #  ${data.title}
+
+${data.licenseChoice}
+
   
 ## Contents
 
 1. [Description](#description) 
-- [User Story](#user%20story)
-- [Screenshots](#screenshots)
 2. [Installation](#installation)
-2. [Usage Information] (#usage)
+2. [Usage Information](#usage)
 3. [License](#license)
-4. [Contribution Guidelines](#contributing)
-5. [Authors and Acknowledgments](#acknowledgments)
+4. [Contribution Guidelines](#contrib)
+5. [Authors and Acknowledgments](#ackn)
 5. [Tests](#test)
 6. [Questions](#questions)
 
 ---
-## Description
+## Description 
 
 ${data.description}
 
@@ -29,19 +30,21 @@ ${data.userStory}
 
 ---
 
-## Screenshots:
+## Screenshots
 
 ![${data.visualsLabel}](${data.visuals})
 
 ---
 
-## Installation:
+## Installation
+
   ${data.installation}
 
 ---
 
-## Usage:
-  ${data.installation}
+## Usage
+
+  ${data.usage}
 
 ---
 
@@ -49,6 +52,7 @@ ${data.userStory}
   This application is covered by the following license:
 
   ${data.license}
+
   
 
 ---
@@ -65,23 +69,23 @@ To contribute to this application, please follow these steps:
 
 ---
 
-## Tests:
+## Tests<a name="test"></a>
 
   ${data.test}
 
 ---
 
-## Authors and Acknowledgments
+## Authors and Acknowledgments<a name="ackn"></a>
 
   ${data.acknowledgements}
   ${data.acknowledgementsLink}
 
 ---
 
-## Questions
+## Questions<a name="questions"></a>
   For any further questions please contact:
-* GitHub Username: <${data.userName}>
-* GitHub Email: <${data.userEmail}>
+* GitHub Username: (${data.userName})
+* GitHub Email: (${data.userEmail})
   
   
 `;
