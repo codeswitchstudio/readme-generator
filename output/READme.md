@@ -7,41 +7,41 @@
 
 1. [Description](#description) 
 2. [Installation](#installation)
-2. [Usage Information](#usage%20information)
-3. [License](#license)
-4. [Contribution Guidelines](#contribution guidelines)
-5. [Tests](#tests)
-6. [Authors and Acknowledgments](#authors%20and%20acknowledgment)
-7. [Questions](#questions)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Contributing](#contributing)
+6. [Tests](#tests)
+7. [Acknowledgements](#acknowledgements)
+8. [Questions](#questions)
 
 ---
 ## Description 
 
-This is a command-line application that accepts user input and dynamically generates it    via the inquirer package. When a user is prompted for information about the project, their answers are rendred into a professionally structured markdown file.
+This is a command-line application that accepts user input and then dynamically generates a professionally-structured README file from their answers via the Inquirer package.
 
 ---
 
-## User Story
+ + User Story
 
-As a developer, I want a README generator so that I can quickly create a professional README file for a new project
+As a developer, I want a README generator so that I can quickly create a professional README for a new project am working on.
 
 ---
 
-## Screenshots
+ + Screenshots
 
-![screen recording]( google.drive)
+![Screen Recording](drive.google.com)
 
 ---
 
 ## Installation
 
-  Using the command line, the application will be invoked using the following command ```bash node index.js```
+  Using the command line, the app will be invoked by typing ```bash node index.js```
 
 ---
 
-## Usage Information
+## Usage
 
-  Submitting this as a sample README generator this will become the actual output later
+  Submitting this in inception style as a sample readme file generated to test the app
 
 ---
 
@@ -52,9 +52,9 @@ As a developer, I want a README generator so that I can quickly create a profess
 
 ---
 
-## Contribution Guidelines
+## Contributing
 
-To contribute to this application, please follow these steps:
+To contribute to this application, please follow these guidelines:
 1. **Fork the Repository**: Click on the "Fork" button at the top right of the repository page to create your own copy.
 2. **Create a Feature Branch**: Switch to a new branch for your feature 
 (git checkout -b 'your feature branch name')
@@ -66,14 +66,14 @@ To contribute to this application, please follow these steps:
 
 ## Tests
 
-  See video
+  N/A
 
 ---
 
-## Authors and Acknowledgments
+## Acknowledgements
 
-  Good README guide
-  freecodecamp.org
+  Good README file guide
+  https://freecodecamp.org
 
 ---
 
