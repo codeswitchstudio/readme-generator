@@ -86,6 +86,6 @@ Currently submitting this inputted text as a sample README generated using the a
 ## Questions
   For any further questions please contact:
 * GitHub Username: (codeswitchstudio)
-* GitHub Email: (toolbarista@gmail.com)
+* GitHub Email: (zxd2r73pm@relay.firefox.com)
   
   

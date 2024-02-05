@@ -85,6 +85,6 @@ To contribute to this application, please follow these guidelines:
 ## Questions
   For any further questions please contact:
 * GitHub : (https://github.com/codeswitchstudio)
-* GitHub Email: (toolbarista@gmail.com)
+* GitHub Email: (zxd2r73pm@relay.firefox.com)
   
   
