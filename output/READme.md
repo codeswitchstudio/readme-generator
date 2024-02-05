@@ -47,7 +47,6 @@ node index.js
 ```
 The user then answers prompts on the terminal and these will be generated into a professionally structured READme file.
 
-
 ---
 
 ## License
@@ -86,5 +85,4 @@ To contribute to this application, please follow these guidelines:
   For any further questions please contact:
 * GitHub : (https://github.com/codeswitchstudio)
 * GitHub Email: (zxd2r73pm@relay.firefox.com)
-  
   

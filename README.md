@@ -57,7 +57,6 @@ node index.js
 
   MIT
 
-  
 
 ---
 
