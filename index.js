@@ -81,6 +81,7 @@ const promptUser = () => {
 // function to initialize program
 // function to write README file
 
+
 const init = async () => {
 
     console.log('hi');

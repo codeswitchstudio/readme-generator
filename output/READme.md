@@ -17,31 +17,36 @@
 ---
 ## Description 
 
-This is a command-line application that accepts user input and then dynamically generates a professionally-structured README file from their answers via the Inquirer package.
+This is a command-line application that accepts user input and then dynamically generates a professional README file out of it via the Inquirer package.
 
 ---
 
  + User Story
 
-As a developer, I want a README generator so that I can quickly create a professional README for a new project am working on.
+As a developer, I want a README generator so that I can quickly create a professional README for a new project
 
 ---
 
  + Screenshots
 
-![Screen Recording](drive.google.com)
+![Screenshots](../images/Screenshots.png)
 
 ---
 
 ## Installation
 
-  Using the command line, the app will be invoked by typing ```bash node index.js```
+  Please check the [inquirer documentation](https://www.npmjs.com/package/inquirer#installation)
 
 ---
 
 ## Usage
 
-  Submitting this in inception style as a sample readme file generated to test the app
+Using the command line, the application will be invoked by using the following command:
+```bash
+node index.js
+```
+The user then answers prompts on the terminal and these will be generated into a professionally structured READme file.
+
 
 ---
 
@@ -66,14 +71,14 @@ To contribute to this application, please follow these guidelines:
 
 ## Tests
 
-  N/A
+  Submitting this as a sample README generated using this application
 
 ---
 
 ## Acknowledgements
 
-  Good README file guide
-  https://freecodecamp.org
+  [Good README guide]
+  (https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
 
 ---
 
