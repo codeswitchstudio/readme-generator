@@ -30,7 +30,7 @@ This is a command-line application that accepts user input and then dynamically 
 
 **Visuals**
 
- - A walkthrough video demonstrating the functionality of the application may be found on [Google Drive](https://drive.google.com/file/d/1Hk-WdN9t7glphhChaDNyj0TUn1Eh-beQ/view?usp=sharing)
+  - A walkthrough video demonstrating the functionality of the application may be found on [Google Drive](https://drive.google.com/file/d/1Hk-WdN9t7glphhChaDNyj0TUn1Eh-beQ/view?usp=sharing)
 
   - Screenshots
 
