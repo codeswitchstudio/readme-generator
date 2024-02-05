@@ -7,11 +7,11 @@
 
 1. [Description](#description) 
 2. [Installation](#installation)
-2. [Usage Information](#usage)
+2. [Usage Information](#usage%20information)
 3. [License](#license)
-4. [Contribution Guidelines](#contribution)
+4. [Contribution Guidelines](#contribution guidelines)
 5. [Tests](#tests)
-6. [Authors and Acknowledgments](#authors)
+6. [Authors and Acknowledgments](#authors%20and%20acknowledgment)
 7. [Questions](#questions)
 
 ---
@@ -43,7 +43,7 @@ node index.js
 
 ---
 
-## Usage
+## Usage Information
 
 See walkthrough video 
 
