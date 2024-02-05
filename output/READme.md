@@ -1,48 +1,47 @@
    
-#  look
+#  README Generator
 
-!
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contents
 
 1. [Description](#description) 
 2. [Installation](#installation)
-2. [Usage Information](#usage)
+2. [Usage Information](#usage%20information)
 3. [License](#license)
-4. [Contribution Guidelines](#contribution)
+4. [Contribution Guidelines](#contribution guidelines)
 5. [Tests](#tests)
-6. [Authors and Acknowledgments](#authors)
+6. [Authors and Acknowledgments](#authors%20and%20acknowledgment)
 7. [Questions](#questions)
 
 ---
 ## Description 
 
-undefined
+This is a command-line application that accepts user input and dynamically generates it    via the inquirer package. When a user is prompted for information about the project, their answers are rendred into a professionally structured markdown file.
 
 ---
 
 ## User Story
 
-undefined
+As a developer, I want a README generator so that I can quickly create a professional README file for a new project
 
 ---
 
 ## Screenshots
 
-![undefined](undefined)
+![screen recording]( google.drive)
 
 ---
 
 ## Installation
 
-  undefined
+  Using the command line, the application will be invoked using the following command ```bash node index.js```
 
 ---
 
-## Usage
+## Usage Information
 
-  undefined
+  Submitting this as a sample README generator this will become the actual output later
 
 ---
 
@@ -50,8 +49,6 @@ undefined
   This application is covered by the following license:
 
   MIT
-
-  
 
 ---
 
@@ -69,20 +66,20 @@ To contribute to this application, please follow these steps:
 
 ## Tests
 
-  undefined
+  See video
 
 ---
 
 ## Authors and Acknowledgments
 
-  undefined
-  undefined
+  Good README guide
+  freecodecamp.org
 
 ---
 
 ## Questions
   For any further questions please contact:
-* GitHub : (https://github.com/undefined)
-* GitHub Email: (undefined)
+* GitHub : (https://github.com/codeswitchstudio)
+* GitHub Email: (toolbarista@gmail.com)
   
   
