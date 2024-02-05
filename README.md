@@ -1,4 +1,4 @@
-#  README Generator
+#  README Generator (inception-style)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -7,11 +7,11 @@
 
 1. [Description](#description) 
 2. [Installation](#installation)
-2. [Usage Information](#usage%20information)
+2. [Usage Information](#usage)
 3. [License](#license)
-4. [Contribution Guidelines](#contribution%20guidelines)
+4. [Contributing](#contributing)
 5. [Tests](#tests)
-6. [Authors and Acknowledgments](#authors%20and%20acknowledgment)
+6. [Acknowledgements](#acknowledgements)
 7. [Questions](#questions)
 
 ---
@@ -21,16 +21,16 @@ This is a command-line application that accepts user input and then dynamically 
 
 ---
 
-## User Story
+**User Story** 
 
-As a developer, I want a README generator so that I can quickly create a professional README for a new project.
+ - As a developer, I want a README generator so that I can quickly create a professional README for a new project.
 
 
 ---
 
-## Screenshots
+**Screenshots**
 
-![screen recording](http://drive.google.com)
+ - ![screen recording](http://drive.google.com)
 
 ---
 
@@ -43,7 +43,9 @@ node index.js
 
 ---
 
-## Usage Information
+## Usage
+
+You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
 
 See walkthrough video 
 
@@ -59,7 +61,7 @@ See walkthrough video
 
 ---
 
-## Contribution Guidelines
+## Contributing
 
 To contribute to this application, please follow these steps:
 1. **Fork the Repository**: Click on the "Fork" button at the top right of the repository page to create your own copy.
@@ -73,11 +75,11 @@ To contribute to this application, please follow these steps:
 
 ## Tests
 
-Submitting this input (inception style) as a sample README generated using the application.
+Currently submitting this inputted text as a sample README generated using the application.
 
 ---
 
-## Authors and Acknowledgments
+## Acknowledgements
 
 
  - [Good README Guide, Freecodecamp] (https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)

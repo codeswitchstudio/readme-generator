@@ -9,12 +9,12 @@ ${data.licenseChoice}
 
 1. [Description](#description) 
 2. [Installation](#installation)
-2. [Usage Information](#usage%20information)
-3. [License](#license)
-4. [Contribution Guidelines](#contribution%20guidelines)
-5. [Tests](#tests)
-6. [Authors and Acknowledgments](#authors%20and%20acknowledgment)
-7. [Questions](#questions)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Contributing](#contributing)
+6. [Tests](#tests)
+7. [Acknowledgements](#acknowledgements)
+8. [Questions](#questions)
 
 ---
 ## Description 
@@ -23,13 +23,13 @@ ${data.description}
 
 ---
 
-## User Story
+ + User Story
 
 ${data.userStory}
 
 ---
 
-## Screenshots
+ + Screenshots
 
 ![${data.visualsLabel}](${data.visuals})
 
@@ -41,7 +41,7 @@ ${data.userStory}
 
 ---
 
-## Usage Information
+## Usage
 
   ${data.usage}
 
@@ -54,9 +54,9 @@ ${data.userStory}
 
 ---
 
-## Contribution Guidelines
+## Contributing
 
-To contribute to this application, please follow these steps:
+To contribute to this application, please follow these guidelines:
 1. **Fork the Repository**: Click on the "Fork" button at the top right of the repository page to create your own copy.
 2. **Create a Feature Branch**: Switch to a new branch for your feature 
 (git checkout -b 'your feature branch name')
@@ -72,7 +72,7 @@ To contribute to this application, please follow these steps:
 
 ---
 
-## Authors and Acknowledgments
+## Acknowledgements
 
   ${data.acknowledgements}
   ${data.acknowledgementsLink}
