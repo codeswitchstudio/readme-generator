@@ -5,17 +5,16 @@ function generateMarkdown(data) {
 
 ${data.licenseChoice}
 
-  
 ## Contents
 
 1. [Description](#description) 
 2. [Installation](#installation)
 2. [Usage Information](#usage)
 3. [License](#license)
-4. [Contribution Guidelines](#contrib)
-5. [Authors and Acknowledgments](#ackn)
-5. [Tests](#test)
-6. [Questions](#questions)
+4. [Contribution Guidelines](#contribution)
+5. [Tests](#tests)
+6. [Authors and Acknowledgments](#authors)
+7. [Questions](#questions)
 
 ---
 ## Description 
@@ -57,7 +56,7 @@ ${data.userStory}
 
 ---
 
-## Contributing to the Application
+## Contribution Guidelines
 
 To contribute to this application, please follow these steps:
 1. **Fork the Repository**: Click on the "Fork" button at the top right of the repository page to create your own copy.
@@ -69,22 +68,22 @@ To contribute to this application, please follow these steps:
 
 ---
 
-## Tests<a name="test"></a>
+## Tests
 
   ${data.test}
 
 ---
 
-## Authors and Acknowledgments<a name="ackn"></a>
+## Authors and Acknowledgments
 
   ${data.acknowledgements}
   ${data.acknowledgementsLink}
 
 ---
 
-## Questions<a name="questions"></a>
+## Questions
   For any further questions please contact:
-* GitHub Username: (${data.userName})
+* GitHub : (https://github.com/${data.userName})
 * GitHub Email: (${data.userEmail})
   
   

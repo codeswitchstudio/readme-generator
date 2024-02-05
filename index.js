@@ -3,7 +3,7 @@ const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 const util = require('util');
-const licenseChoice = require("./utils/licenseChoice");
+const licenseChoice = require("./utils/licenseChoice").licenseChoice;
 const writeFileAsync = util.promisify(fs.writeFile);
 
 
@@ -49,7 +49,7 @@ const promptUser = () => {
         type: 'list',
         message: 'Which license are you using for this project?',
         name: 'license',
-        choices: ['GNU AGPLv3', 'Mozilla', 'Apache', 'MIT', 'Creative Commons'],
+        choices: ['MIT', 'Mozilla', 'Apache', 'GNU AGPLv3', 'Creative Commons'],
     },
     {
         type: "input",
@@ -69,36 +69,34 @@ const promptUser = () => {
     {
         type: "input",
         message: "What is your GitHub user name?",
-        name: "username",
+        name: "userName",
     },
     {
         type: "input",
         message: "What is your email address?",
-        name: "email",
+        name: "userEmail",
     }
 ])};
-
-
 
 // function to initialize program
 // function to write README file
 
-
 const init = async () => {
+
     console.log('hi');
     try {
         const answers = await promptUser();
+        answers.licenseChoice = licenseChoice(answers.license);
         const markdown = generateMarkdown(answers);  
-        await writeFileAsync('READme.md', markdown);  
-        console.log('You have successfully generated a Markdown file!');
+        await writeFileAsync('./output/READme.md', markdown);
+        console.log('Success! Markdown file generated.');
     } catch (err) {
         console.log('Error generating Markdown file: ', err);
     }
+    
 };
 
 
   
   // function call to initialize program
   init();
-
-  console.log(licenseChoice);

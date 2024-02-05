@@ -1,59 +1,65 @@
-   
-#  1
-undefined
+#  README Generator
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   
 ## Contents
 
 1. [Description](#description) 
-2. [Installation](#install)
+2. [Installation](#installation)
 2. [Usage Information](#usage)
 3. [License](#license)
-4. [Contribution Guidelines](#contrib)
-5. [Authors and Acknowledgments](#ackn)
-5. [Tests](#test)
-6. [Questions](#questions)
+4. [Contribution Guidelines](#contribution)
+5. [Tests](#tests)
+6. [Authors and Acknowledgments](#authors)
+7. [Questions](#questions)
 
 ---
 ## Description 
 
-2
+This is a command-line application that accepts user input and then dynamically generates it via the inquirer package. When a user is prompted for information about the project, their answers are rendered into a professionally structured markdown file.
 
 ---
 
 ## User Story
 
-3
+As a developer, I want a README generator so that I can quickly create a professional README for a new project.
+
 
 ---
 
 ## Screenshots
 
-![5](4)
+![screen recording](http://drive.google.com)
 
 ---
 
 ## Installation
 
-6
+  Using the command line, the application will be invoked by using the following command:
+```bash
+node index.js
+```
 
 ---
 
 ## Usage
-  7
+
+See walkthrough video 
+
 
 ---
 
 ## License
   This application is covered by the following license:
 
-  GNU AGPLv3
+  MIT
 
   
 
 ---
 
-## Contributing to the Application
+## Contribution Guidelines
 
 To contribute to this application, please follow these steps:
 1. **Fork the Repository**: Click on the "Fork" button at the top right of the repository page to create your own copy.
@@ -65,22 +71,25 @@ To contribute to this application, please follow these steps:
 
 ---
 
-## Tests<a name="test"></a>
+## Tests
 
-  8
-
----
-
-## Authors and Acknowledgments<a name="ackn"></a>
-
-  9
-  0
+Submitting this input (inception style) as a sample README generated using the application.
 
 ---
 
-## Questions<a name="questions"></a>
+## Authors and Acknowledgments
+
+
+ - [Good README Guide, Freecodecamp] (https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+ - [Inquirer Package] (https://www.npmjs.com/package/inquirer)
+ - [Node FS documentation] (https://nodejs.org/api/fs.html)
+
+
+---
+
+## Questions
   For any further questions please contact:
-* GitHub Username: (undefined)
-* GitHub Email: (undefined)
+* GitHub Username: (codeswitchstudio)
+* GitHub Email: (toolbarista@gmail.com)
   
   

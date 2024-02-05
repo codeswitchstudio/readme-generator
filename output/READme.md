@@ -1,45 +1,48 @@
    
-#  Aldos App
-  
+#  look
+
+!
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Contents
 
 1. [Description](#description) 
-- [User Story](#user%20story)
-- [Screenshots](#screenshots)
 2. [Installation](#installation)
-2. [Usage Information] (#usage)
+2. [Usage Information](#usage)
 3. [License](#license)
-4. [Contribution Guidelines](#contributing)
-5. [Authors and Acknowledgments](#acknowledgments)
-5. [Tests](#test)
-6. [Questions](#questions)
+4. [Contribution Guidelines](#contribution)
+5. [Tests](#tests)
+6. [Authors and Acknowledgments](#authors)
+7. [Questions](#questions)
 
 ---
-## Description
+## Description 
 
-Aldo
+undefined
 
 ---
 
 ## User Story
 
-Aldo makes readme
+undefined
 
 ---
 
-## Screenshots:
+## Screenshots
 
-![link name](to folow later)
-
----
-
-## Installation:
-  something
+![undefined](undefined)
 
 ---
 
-## Usage:
-  something
+## Installation
+
+  undefined
+
+---
+
+## Usage
+
+  undefined
 
 ---
 
@@ -47,11 +50,12 @@ Aldo makes readme
   This application is covered by the following license:
 
   MIT
+
   
 
 ---
 
-## Contributing to the Application
+## Contribution Guidelines
 
 To contribute to this application, please follow these steps:
 1. **Fork the Repository**: Click on the "Fork" button at the top right of the repository page to create your own copy.
@@ -63,22 +67,22 @@ To contribute to this application, please follow these steps:
 
 ---
 
-## Tests:
+## Tests
 
-  nothing this
+  undefined
 
 ---
 
 ## Authors and Acknowledgments
 
-  thank you jesus
-  link to thnk jesus
+  undefined
+  undefined
 
 ---
 
 ## Questions
   For any further questions please contact:
-* GitHub Username: <undefined>
-* GitHub Email: <undefined>
+* GitHub : (https://github.com/undefined)
+* GitHub Email: (undefined)
   
   
