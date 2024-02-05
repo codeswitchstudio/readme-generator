@@ -30,7 +30,7 @@ This is a command-line application that accepts user input and then dynamically 
 
 **Visuals**
 
- - A walkthrough video demonstrating the functionality of the application [Google Drive](https://drive.google.com/file/d/1Hk-WdN9t7glphhChaDNyj0TUn1Eh-beQ/view?usp=sharing)
+ - A walkthrough video demonstrating the functionality of the application may be found on [Google Drive](https://drive.google.com/file/d/1Hk-WdN9t7glphhChaDNyj0TUn1Eh-beQ/view?usp=sharing)
 
   - Screenshots
 
@@ -63,8 +63,7 @@ node index.js
 
 ## Contributing
 
-To contribute to this application, please follow the steps found here [GitHub]
-(https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project)
+To contribute to this application, please follow the steps found on the [GitHub guide](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project)
 
 ---
 
